@@ -1,0 +1,7 @@
+document.writeln("<p>")
+document.writeln("Dafbarber merupakan tenpat cukur yang sudah berdiri")
+document.writeln("<br>sejak tahun 2008.Dalam perkembangan kami semakin sukses")
+document.writeln("<br>sehingga banyak yang mengantri sampai panjang.Untuk menyelesaikan ")
+document.writeln("<br>masalah antrin panjang sehingga bosan menunggu kami")
+document.writeln("<br>membuat webset ini untuk memboking terlebih dahulu")
+document.writeln("</P> ")

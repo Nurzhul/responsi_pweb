@@ -1,0 +1,72 @@
+.logo a{
+	display: flex;
+	text-decoration: none;
+
+}
+.logo p{
+	font-size: 20px;
+	font-family: arial;
+	color: black;
+}
+.logoku{
+	width: 60px;
+	height: 60px;
+}
+.header{
+	display: flex;
+	background-color: #78BBF1;
+	border-bottom: 2px solid black;
+	height: 55px;
+	margin: 0;
+	top: 0;
+}
+.logo{
+	flex: 1;
+}
+.menu{
+	flex: 1;
+	
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+	float: right;
+}
+.menu li{
+	margin-left: 5px;
+	margin-right: 25px;
+	
+}
+.menu a{
+	text-decoration: none;
+	color: #0B5F0F ;
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+.selamat{
+	background-color:#78BBF1 ;
+}
+.sam a{
+	font-family: Times New Roman;
+	text-decoration: none;
+	color: black;
+}
+.sam a:hover{
+	text-decoration: underline;
+}
+.model{
+	background-color: #78BBF1;
+}
+.penutup{
+	background-color: #78BBF1;
+}
+.penutup a{
+	text-decoration: none;
+	color: black;
+	
+}
+.penutup a:hover{
+	text-decoration: underline;
+}
+

@@ -1,0 +1,120 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>barbershop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <div class="header">
+ 	<div class="logo">
+ 		<a href="index.html">
+ 		<img src="img/logobaber.png" class="logoku">
+ 		<p>Dafbarber</p>
+ 		</a>
+ 	</div>
+ 	<div class="menu">
+ 		<ul>
+ 			<li><a href="#tentang" >Tentang kami</a></li>
+ 			<li><a href="#gaya" >Model/style</a></li>
+ 			<li><a href="#lih" >Daftar</a></li>
+ 		</ul>
+ 	</div> 
+ </div>
+ <div class="selamat">
+ 	<br><br><br><br><br><br>
+ 	<center>
+ 		<div class="sam">
+ 			<h1>Selamat Datang</h1>
+ 			<p><br><a href="index.html"> Di Dafbarber</a></p>
+ 		</div>
+ 	</center>
+ 	<br><br><br><br><br><br>
+ </div>
+ <div class="about" id="tentang">
+ 	<br><br>
+ 	<center><img src="img/about.png" width="150px" height="110px"></center>
+ 	<center><div><SCRIPT language="JavaScript" src="responsi.js"> </SCRIPT>  </div></center>
+ 	<br><br><br><br>
+ </div>
+<div class="model" id="gaya"> 
+<center><img src="img/style.png" width="160px"
+	height="80px">
+	<table cellspacing="20px" cellpadding="20px">
+		<tr>
+			<td><img src="img/model1.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 1</td>
+			<td><img src="img/model2.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 2</td>
+			<td><img src="img/model3.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 3</td>
+		</tr>
+		<tr>
+			<td><img src="img/model4.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 4</td>
+			<td><img src="img/model5.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 5</td>
+			<td><img src="img/model6.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 6</td>
+		</tr>
+		<tr>
+			<td><img src="img/model7.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 7</td>
+			<td><img src="img/model8.jpg" width="150px" height="150px"><br>&nbsp &nbsp &nbsp &nbsp Model 8</td>
+			<td><img src="img/model9.png" width="150px" height="150px"><br>&nbsp &nbsp &nbsp Reques pelanggan</td>
+		</tr>
+
+	</table>
+</center>
+<br><br>
+</div>
+<div class="daf" id="lih">
+	<br><br><br><br>
+	<center><p><img src="img/daftar.jpg" width="160px" height="80px"></p> </center>
+	<br><br>
+	<form name="form1" method="post" action="proses.php">
+				<table width="58%" border="0" align="center">
+					<tr>
+						<td>Nama Lengkap</td>
+						<td><input name="nama" type="text" id="nama"></td>
+					</tr>
+
+					<tr>
+						<td>Tanggal kedatangan</td>
+						<td><input type="date" id="tanggal" name="tanggal"></td>
+					</tr>
+
+					<tr>
+						<td>E-Mail</td>
+						<td><input name="email" type="text" id="email"></td> </tr>
+					</tr>
+
+					<tr>
+						<td>Model</td>
+						<td>
+							<select name="model" id="model">
+								<option>Model 1</option>
+								<option>Model 2</option>
+								<option>Model 3</option>
+								<option>Model 4</option>
+								<option>Model 5</option>
+								<option>Model 6</option>
+								<option>Model 7</option>
+								<option>Model 8</option>
+								<option>Reques</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Komentar</td>
+						<td><textarea name="komentar" id="komentar"></textarea></td> </textarea>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><input type="submit" name="Submit" value="Kirim"><input type="reset" name="Submit2" value="Batal">
+					</td>
+					</tr>
+				</table>
+			</form>
+	
+</div>
+<div class="penutup">
+	<p>Contac : 08XXXXXXXXX    </p> <a href="index.html">kembali ke HOME</a>
+</div>
+</body>
+</html>
